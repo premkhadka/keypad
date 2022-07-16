@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keypad</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <div class = "head_container">
+        <div class = "sub_container">
+            <div class ="rectangle"  >
+              <input type="text" id='phone'  class="display" 
+              oninput="javascript: if (this.value.length > this.maxLength)
+               this.value = this.value.slice(0, this.maxLength);"
+              maxlength="10">
+                <img src="images/backspace.png" class="photo">
+            </div>
+            <br>
+
+            <table style = 'font-size:200%' >
+                <tr>
+                  <td style="text-align:center"  class="button">1</td>
+                  <td style="text-align:center" class="button">2</td>
+                  <td style="text-align:center" class="button">3</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center" class="button">4</td>
+                  <td style="text-align:center" class="button">5</td>
+                  <td style="text-align:center" class="button">6</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center" class="button" >7</td>
+                  <td style="text-align:center" class="button">8</td>
+                  <td style="text-align:center" class="button">9</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center" class="button" >*</td>
+                    <td style="text-align:center" class="button">0</td>
+                    <td style="text-align:center" class="button">#</td>
+                  </tr>
+              </table>
+              
+        </div>
+        <div>
+        </div>
+       <script src ="script.js">
+         </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.head_container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgoldenrodyellow ;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.sub_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 75vh;
+    width: 40vw;
+    flex-direction: column;
+}
+.display {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  background: none;
+  
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 228, 228);
+    height: 8vh;
+    width: 37vw;
+    border-radius: 10px;
+    flex-direction: unset;
+   
+}
+table,  td {
+    border: 0.2px solid;
+    font-weight: bold;
+  }
+  
+  table {
+    
+    width: 90%;
+    height: 75%;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  .photo{
+    height: 30px;
+    width: 30px; 
+    display: block;
+     margin-left: auto;
+     cursor: pointer;
+}
+.button{
+  cursor: pointer;
+}

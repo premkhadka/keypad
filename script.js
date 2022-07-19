@@ -10,7 +10,7 @@ keys.forEach(function (button) {
         rectangle.value += input
         
         if (rectangle.value.length > 10) {
-            alert("Maximum of 10 digits is allowed");
+            alert("Only maximum of 10 digits isgit  allowed");
             rectangle.value = rectangle.value.substr(0, 10);
 
         
